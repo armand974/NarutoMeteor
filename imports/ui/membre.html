@@ -1,0 +1,16 @@
+<template name="membreT">
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img class="card-img-top" src="{{srcMembre}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{nomMembre}}</h5>
+                <p class="card-text">{{descriptifMembre}}</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn-edit-membre btn btn-success" data-toggle="modal" data-target="#exampleModal" data-id="{{_id}}">
+                    Modifier
+                </button>
+                <button class="delete align-right">&times;</button>
+            </div>
+        </div>
+    </div>
+</template>

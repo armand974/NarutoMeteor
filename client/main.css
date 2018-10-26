@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.jumbotron-village { 
+  background: url('http://www.kana.fr/assets/uploads/2014/09/Couverture-t28_p12-13.jpg'); 
+  color: green;
+}
+
+.card img{ height: 200px;}
+
+.liste-membre{ background-color: cyan; }
